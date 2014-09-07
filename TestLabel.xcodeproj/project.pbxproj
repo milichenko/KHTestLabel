@@ -19,6 +19,9 @@
 		0F84893719BCC230001B2F83 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F84891F19BCC230001B2F83 /* UIKit.framework */; };
 		0F84893F19BCC230001B2F83 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0F84893D19BCC230001B2F83 /* InfoPlist.strings */; };
 		0F84894119BCC230001B2F83 /* TestLabelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F84894019BCC230001B2F83 /* TestLabelTests.m */; };
+		0F84894B19BCC247001B2F83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F84894A19BCC247001B2F83 /* Main.storyboard */; };
+		0F84894E19BCC28E001B2F83 /* KHTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F84894D19BCC28E001B2F83 /* KHTestViewController.m */; };
+		0F84895119BCC346001B2F83 /* KHTestLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F84895019BCC346001B2F83 /* KHTestLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,11 @@
 		0F84893C19BCC230001B2F83 /* TestLabelTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestLabelTests-Info.plist"; sourceTree = "<group>"; };
 		0F84893E19BCC230001B2F83 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0F84894019BCC230001B2F83 /* TestLabelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestLabelTests.m; sourceTree = "<group>"; };
+		0F84894A19BCC247001B2F83 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		0F84894C19BCC28E001B2F83 /* KHTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KHTestViewController.h; sourceTree = "<group>"; };
+		0F84894D19BCC28E001B2F83 /* KHTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KHTestViewController.m; sourceTree = "<group>"; };
+		0F84894F19BCC346001B2F83 /* KHTestLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KHTestLabel.h; sourceTree = "<group>"; };
+		0F84895019BCC346001B2F83 /* KHTestLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KHTestLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +119,11 @@
 				0F84892B19BCC230001B2F83 /* KHAppDelegate.m */,
 				0F84892D19BCC230001B2F83 /* Images.xcassets */,
 				0F84892219BCC230001B2F83 /* Supporting Files */,
+				0F84894A19BCC247001B2F83 /* Main.storyboard */,
+				0F84894C19BCC28E001B2F83 /* KHTestViewController.h */,
+				0F84894D19BCC28E001B2F83 /* KHTestViewController.m */,
+				0F84894F19BCC346001B2F83 /* KHTestLabel.h */,
+				0F84895019BCC346001B2F83 /* KHTestLabel.m */,
 			);
 			path = TestLabel;
 			sourceTree = "<group>";
@@ -220,6 +233,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F84894B19BCC247001B2F83 /* Main.storyboard in Resources */,
 				0F84892619BCC230001B2F83 /* InfoPlist.strings in Resources */,
 				0F84892E19BCC230001B2F83 /* Images.xcassets in Resources */,
 			);
@@ -242,6 +256,8 @@
 			files = (
 				0F84892819BCC230001B2F83 /* main.m in Sources */,
 				0F84892C19BCC230001B2F83 /* KHAppDelegate.m in Sources */,
+				0F84894E19BCC28E001B2F83 /* KHTestViewController.m in Sources */,
+				0F84895119BCC346001B2F83 /* KHTestLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
